@@ -4,18 +4,23 @@
   padding: 0;
 }
 
-body {
-  font-family: 'Inter', sans-serif;
-  background-color: #F4F8FB;
-}
 
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: transform 0.3s ease;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #F4F8FB;
   padding: 26px 80px;
   z-index: 1000;
+}
+
+.navbar.hide {
+  transform: translateY(-100%);
 }
 
 .nav-links {
@@ -41,6 +46,12 @@ body {
 
 .nav-links li a.active-link {
   color: #F2994A;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F4F8FB;
+  padding-top: 80px;
 }
 
 /*FOOTER*/
@@ -109,7 +120,11 @@ body {
   /* Navigation */
   .navbar {
     padding: 16px 24px;
-    position: relative;
+    position: fixed;
+  }
+
+  body {
+    padding-top: 60px; 
   }
 
   .nav-links {
