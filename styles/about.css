@@ -1,7 +1,11 @@
 .subheading {
   	align-self: stretch;
   	position: relative;
-  	line-height: 24px;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	text-transform: capitalize;
 }
 .heading {
   	align-self: stretch;
@@ -20,6 +24,8 @@
   	align-self: stretch;
   	position: relative;
   	line-height: 30px;
+	font-size: 20px;
+	font-family: "Inter", sans-serif;
 }
 .content {
   	flex: 1;
@@ -30,7 +36,7 @@
   	padding: 12px 0px 0px;
   	font-size: 20px;
   	color: #475467;
-  	font-family: 'Gotham Pro';
+  	font-family: 'Inter', sans-serif;
 }
 .heading-and-supporting-text {
   	align-self: stretch;
@@ -160,7 +166,10 @@
 .subheading2 {
   	align-self: stretch;
   	position: relative;
-  	line-height: 24px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+	font-family: "Inter", sans-serif;
 }
 .heading2 {
   	align-self: stretch;
@@ -183,7 +192,9 @@
   	position: relative;
   	font-size: 20px;
   	line-height: 30px;
-  	font-weight: 500;
+  	font-size: 20px;
+	line-height: 30px;
+	font-family: "Inter", sans-serif;
   	color: #f4f8fb;
 }
 .heading-and-supporting-text2 {
@@ -211,7 +222,9 @@
 .paragraph {
   	align-self: stretch;
   	position: relative;
-  	line-height: 28px;
+	font-size: 16px;
+	line-height: 28px;
+	font-family: "Inter", sans-serif;
 }
 .rich-text {
   	flex: 1;
@@ -222,7 +235,7 @@
 }
 .blu-content1 {
   	align-self: stretch;
-  	height: 466px;
+  	height: auto;
   	display: flex;
   	flex-direction: row;
   	align-items: flex-start;
@@ -264,14 +277,15 @@
   	align-self: stretch;
   	position: relative;
   	line-height: 24px;
-  	font-weight: 500;
+  	font-weight: 700;
+	text-transform: capitalize;
 }
 .heading3 {
   	position: relative;
   	font-size: 36px;
   	letter-spacing: -0.02em;
   	line-height: 44px;
-  	font-family: Ubuntu;
+  	font-family: 'Ubuntu',sans-serif;
   	color: #101828;
 }
 .heading-and-subheading3 {
@@ -288,6 +302,7 @@
   	font-size: 20px;
   	line-height: 30px;
   	color: #475467;
+	font-family: "Inter", sans-serif;
 }
 .heading-and-supporting-text3 {
   	align-self: stretch;
@@ -363,7 +378,7 @@
   	position: relative;
   	font-size: 16px;
   	line-height: 24px;
-  	font-family: 'Gotham Pro';
+  	font-family: 'Inter', sans-serif;
   	color: #6941c6;
 }
 .name-and-role {
@@ -422,7 +437,7 @@
   	position: relative;
   	font-size: 16px;
   	line-height: 24px;
-  	font-family: 'Gotham Pro';
+  	font-family: 'Inter', sans-serif;
   	color: #475467;
 }
 .row {
@@ -443,7 +458,7 @@
   	justify-content: flex-start;
   	font-size: 18px;
   	color: #101828;
-  	font-family: Ubuntu;
+  	font-family: 'Ubuntu', sans-serif;
 }
 .tea-container {
   	align-self: stretch;
@@ -467,7 +482,7 @@
   	text-align: left;
   	font-size: 16px;
   	color: #f2994a;
-  	font-family: 'Gotham Pro';
+  	font-family: 'Inter', sans-serif;
 }
 
 /*IMage*/
@@ -475,7 +490,9 @@
   	align-self: stretch;
   	position: relative;
   	line-height: 24px;
-  	font-weight: 600;
+  	font-weight: 700;
+	font-family: "Inter", sans-serif;
+	text-transform: capitalize;
 }
 .heading4 {
   	align-self: stretch;
@@ -483,7 +500,7 @@
   	font-size: 36px;
   	letter-spacing: -0.02em;
   	line-height: 44px;
-  	font-family: Ubuntu;
+  	font-family: 'Ubuntu', sans-serif;
   	color: #fff;
 }
 .img-heading-and-subheading {
@@ -500,6 +517,7 @@
   	font-size: 20px;
   	line-height: 30px;
   	color: #f4f8fb;
+	font-family: "Inter", sans-serif;
 }
 .img-heading-and-supporting-tex {
   	align-self: stretch;
@@ -523,7 +541,7 @@
   	flex-direction: row;
   	align-items: center;
   	justify-content: center;
-  	padding: 16px 24px;
+  	padding: 16px 16px;
 }
 .component-7-wrapper {
   	width: 219px;
@@ -765,7 +783,7 @@
     
     /* Header Section */
     .header-section {
-        padding: 32px 20px;
+        padding: 2rem;
         gap: 32px;
     }
 	.heading-and-action {
@@ -791,7 +809,7 @@
     
     /* Content Section */
     .content-section {
-        padding: 32px 20px;
+        padding: 2rem;
     }
     
     .blu-container {
@@ -801,8 +819,16 @@
     
     /* Team Section */
     .team-section {
-        padding: 32px 20px;
+        padding: 2rem;
     }
+
+    .tea-container{
+		gap: 64px;
+	}
+
+	.tea-content{
+		gap: 24px;
+	}
     
     .team-member {
         width: 100%;
@@ -812,10 +838,11 @@
     
     /* Image Section - Simplified layout for mobile */
     .img-container {
-        padding: 24px 16px;
-        margin: 32px 0;
+        padding: 32px 20px;
+        margin: 2rem;
         flex-direction: column;
         height: auto;
+		border-radius: 16px;
     }
     
     .img-contents {
@@ -977,8 +1004,8 @@
    }
 
     .img-container {
-    padding: 24px 16px;
-    margin: 32px 20px;
+    padding: 32px 20px;
+    margin: 2rem;
     height: auto;
     width: auto;
     }
