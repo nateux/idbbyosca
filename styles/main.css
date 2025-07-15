@@ -1134,35 +1134,45 @@ button {
     margin-bottom: 32px;
   }
 
-  .pillar-card{
-    padding: 2px 24px;
-    width: none;
+  .pillar-stack {
+    width: 100%;
+    margin-top: 20px;
   }
 
-  .pillar-text h3{
-    font-size: 24px;
+  .pillar-card {
+    padding: 8px 16px;
+    margin-bottom: -8px;
+    border-radius: 18px;
   }
 
-  .pillar-card.oranges{
-    background: #f2994a;
-    z-index: 1;
-    width: 270px;
-    height: 75px;
+  .pillar-card.oranges {
+    width: 220px;
+    height: 65px;
   }
 
-  .pillar-card.blacks{
-    background: #000;
-    z-index: 2;
-    width: 290px;
+  .pillar-card.blacks {
+    width: 240px;
+    height: 70px;
+  }
+
+  .pillar-card.blues {
+    width: 260px;
     height: 80px;
   }
-  
-  .pillar-card.blues {
-    background: #1D92FF;
-    z-index: 3;
-    width: 320px;
-    height: 92px;
 
+  .pillar-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+  }
+
+  .pillar-text .pillar-label {
+    font-size: 10px;
+    margin-bottom: 1px;
+  }
+
+  .pillar-text h3 {
+    font-size: 18px;
   }
 
   /* Program section */
