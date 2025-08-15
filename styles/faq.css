@@ -178,6 +178,24 @@
   background-color: #E68A3E;
 }
 
+.why-btn {
+  display: inline-block;
+  margin-top: 2rem;
+  background: #EB9128;
+  color: #fff;
+  padding: 14px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  text-align: start;
+}
+
+.why-btn:hover {
+  background: #d97706;
+}
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .faq-grid {
